@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Navionix | Games Hub</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: radial-gradient(circle at top left, #00111f, #000000 80%);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 100px;
+    }
+
+    header {
+      text-align: center;
+      margin: 40px 0;
+    }
+
+    .logo {
+      font-size: 2.5rem;
+      font-weight: 700;
+      background: linear-gradient(90deg, #00ffe0, #00aaff, #b100ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      letter-spacing: 2px;
+      text-shadow: 0 0 25px rgba(0, 255, 255, 0.3);
+    }
+
+    .subtitle {
+      color: #a0b3d1;
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      max-width: 900px;
+      padding: 20px;
+    }
+
+    .card {
+      background: linear-gradient(145deg, rgba(10, 20, 40, 0.9), rgba(20, 50, 80, 0.8));
+      border: 2px solid rgba(0, 255, 255, 0.2);
+      border-radius: 20px;
+      padding: 30px 20px;
+      width: 320px;
+      text-align: center;
+      box-shadow: 0 0 25px rgba(0, 255, 255, 0.15);
+      transition: 0.4s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 0 35px rgba(0, 255, 255, 0.4);
+    }
+
+    .card h2 {
+      font-size: 1.6rem;
+      background: linear-gradient(90deg, #00eaff, #00ffa3);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      color: #b8c6e2;
+      font-size: 0.95rem;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: linear-gradient(90deg, #00eaff, #00ffa3);
+      color: #001019;
+      font-weight: 700;
+      padding: 10px 28px;
+      border-radius: 30px;
+      text-decoration: none;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.6);
+    }
+
+    .suggestions-box {
+      background: rgba(10, 20, 40, 0.8);
+      border: 1px solid rgba(0, 255, 255, 0.2);
+      border-radius: 20px;
+      padding: 30px;
+      width: 90%;
+      max-width: 500px;
+      margin-top: 60px;
+      text-align: center;
+    }
+
+    .suggestions-box h3 {
+      background: linear-gradient(90deg, #00ffa3, #00eaff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 15px;
+    }
+
+    .suggestions-box input,
+    .suggestions-box textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0;
+      border-radius: 10px;
+      border: none;
+      background: rgba(255,255,255,0.1);
+      color: white;
+    }
+
+    footer {
+      margin-top: 40px;
+      color: #8ea8d4;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1 class="logo">Parthibhan Creations</h1>
+  <p class="subtitle">Explore the Future of Tech</p>
+</header>
+
+<section class="cards">
+
+  <div class="card">
+    <h2>Web Games</h2>
+    <p>Play instantly from your browser — no installs needed!</p>
+    <a class="btn" href="https://navionix.github.io/tech/webgames.html">Play Now</a>
+  </div>
+
+  <div class="card">
+    <h2>Parthibhan AI</h2>
+    <p>A friendly intelligent assistant for learning & creativity.</p>
+    <a class="btn" href="https://paarthibanai.lovable.app">Explore</a>
+  </div>
+
+  <div class="card">
+    <h2>Voxel World</h2>
+    <p>A creative voxel open world for endless exploration.</p>
+    <a class="btn" href="https://example.com">Explore</a>
+  </div>
+
+  <div class="card">
+    <h2>Editing Software</h2>
+    <p>Edit videos instantly in your browser.</p>
+    <a class="btn" href="https://example.com">Explore</a>
+  </div>
+
+  <div class="card">
+    <h2>Online Compiler</h2>
+    <p>Write, run and test code online instantly.</p>
+    <a class="btn" href="https://example.com">Explore</a>
+  </div>
+
+  <div class="card">
+    <h2>Android Games</h2>
+    <p>Download thrilling Android games.</p>
+    <a class="btn" href="https://navionix.github.io/tech/commingsoon.html">Explore</a>
+  </div>
+
+</section>
+
+<footer>
+  © 2025 Parthibhan Creations | Explore the World of Tech
+</footer>
+
+</body>
+</html>
